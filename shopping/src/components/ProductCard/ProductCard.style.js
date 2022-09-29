@@ -5,13 +5,13 @@ export default StyleSheet.create({
     container:{
         backgroundColor:'#e6e6e6',
         borderRadius:10,
-        margin:5
+        margin:7
     },
     image:{
         height:Dimensions.get('window').height /4,
         width:Dimensions.get('window').width /2.3,
         borderRadius:10,
-        margin:5
+        margin:8
     },
     text_container:{
         margin:5
