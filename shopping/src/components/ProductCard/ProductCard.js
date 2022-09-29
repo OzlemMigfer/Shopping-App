@@ -9,7 +9,9 @@ const ProductCard = ({products}) =>{
             <View style={styles.text_container}>
                 <Text style={styles.title}>{products.title}</Text>
                 <Text style={styles.price}>{products.price}</Text>
-                <Text style={styles.stock}>{products.inStock == false}</Text>
+                {
+                    !products.inStock && (<Text style={styles.stock}>STOKTA YOK!</Text>)
+                }
             </View>
         </View>
     )
