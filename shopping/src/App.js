@@ -8,6 +8,7 @@ function App(){
     const keyProducts = item => item.id.toString();
     return(
         <View style={styles.container}>
+            <Text style={styles.headerText}>PATIKASTORE</Text>
             <FlatList
                 numColumns={2}
                 columnWrapperStyle={{ justifyContent:'space-between' }}
@@ -23,6 +24,12 @@ const styles = StyleSheet.create({
     container:{
         backgrounColor:'white',
         flex:1
+    },
+    headerText:{
+        color:'#660066',
+        fontSize:30,
+        fontWeight:'bold',
+        padding:15
     }
 });
 
