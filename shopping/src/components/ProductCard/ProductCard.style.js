@@ -5,7 +5,7 @@ export default StyleSheet.create({
     container:{
         backgroundColor:'#e6e6e6',
         borderRadius:10,
-        margin:7
+        margin:5
     },
     image:{
         height:Dimensions.get('window').height /4,
